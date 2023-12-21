@@ -13,7 +13,7 @@ func Hello(name string) (string, error) {
 	return fmt.Sprintf(randomFormat(), name), nil
 }
 
-func Hellos(names []string) (map[string]string, error) {
+func Hellos(names []string) (map[string]string, error ) {
 	messages := make(map[string]string)
 
 	for _, name := range names {
